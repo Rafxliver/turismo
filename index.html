@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>123milhas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>123Milhas</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="destinos">Destinos</a></li>
+            <li><a href="dicas">Dicas de Viagens</a></li>
+            <li><a href="contato">Contato</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section>
+            <h2>Destinos</h2>
+            <div class="destino" onclick="mostrarDetalhes('Dourado')"></div>
+            <div class="destino" onclick="mostrarDetalhes('Broa')"></div>
+            <div class="destino" onclick="mostrarDetalhes('Aparecidinha')"></div>
+        </section>
+
+        <section id="dicas">
+            <h2>Dicas de Viagem</h2>
+            <p>quaquaquaquaqua</p>
+        </section>
+        <section id="contato">
+            <h2>Contato</h2>
+            <form>
+                <input type="text" placeholder="Seu Nome" required>
+                <input type="text" placeholder="Seu Email" required>
+                <textarea placeholder="Sua Mensagem" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 turistando</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
